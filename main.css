@@ -477,6 +477,8 @@ section {
   .global-header .nsf-logo,
   .global-header .header-text {
     display: inline-block; }
+  .global-header .header-text {
+    width: 50%; }
   .global-header .nsf-logo {
     width: 12.5%; }
   .global-header .rit-logo {
@@ -493,7 +495,7 @@ section {
   .global-nav li {
     display: inline-block;
     width: auto;
-    margin-right: 1em; }
+    margin-right: 1.5em; }
     .global-nav li a {
       color: black;
       display: inline-block; }

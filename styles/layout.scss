@@ -22,6 +22,10 @@ section {
     display: inline-block;
   }
 
+  .header-text {
+    width: 50%;
+  }
+
   .nsf-logo {
     width: 12.5%;
   }
@@ -45,7 +49,7 @@ section {
   li {
     display: inline-block;
     width: auto;
-    margin-right: 1em;
+    margin-right: 1.5em;
 
     a {
       color: black;
