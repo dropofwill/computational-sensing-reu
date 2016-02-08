@@ -354,6 +354,9 @@ td,
 th {
   padding: 0; }
 
+* {
+  font-family: "PT Sans", sans-serif; }
+
 h1, h2, h3, p {
   margin: 0; }
 
@@ -458,7 +461,8 @@ p.author {
   margin-bottom: 0; }
 
 * {
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 footer,
 header,
@@ -466,7 +470,8 @@ section {
   padding: 1em; }
 
 .global-header {
-  border-top: solid 10px #F36E21; }
+  border-top: solid 15px #F36E21;
+  border-bottom: solid 15px #F36E21; }
   .global-header div > :not(:last-child) {
     margin-right: 2.5%; }
   .global-header .nsf-logo,
@@ -478,13 +483,28 @@ section {
     height: 100%; }
 
 .global-nav {
-  background: gainsboro; }
+  background: gainsboro;
+  width: 100%;
+  padding: 0.1em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .global-nav ul {
+    padding: 0; }
+  .global-nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 1em; }
+    .global-nav li a {
+      color: black;
+      display: inline-block; }
 
 .global-footer {
-  background: #666666;
-  border-bottom: solid 10px #F36E21; }
-  .global-footer p {
-    color: #ffffff; }
+  background: gainsboro;
+  border-bottom: solid 15px #F36E21; }
+  .global-footer address {
+    color: #000000; }
+    .global-footer address span {
+      font-style: normal; }
 
 .wrapper {
   margin: 0 auto;
