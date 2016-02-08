@@ -1,0 +1,52 @@
+* {
+  vertical-align: top;
+}
+
+footer,
+header,
+section {
+  padding: 1em;
+}
+
+.global-header {
+  border-top: solid 10px #F36E21;
+
+  div > :not(:last-child) {
+    margin-right: 2.5%;
+  }
+
+  .nsf-logo,
+  .header-text {
+    display: inline-block;
+  }
+
+  .nsf-logo {
+    width: 12.5%;
+  }
+
+  .rit-logo {
+    height: 100%;
+  }
+
+  // .header-text {
+  //   width: 48%;
+  // }
+}
+
+.global-nav {
+  background: gainsboro;
+}
+
+.global-footer {
+  p {
+    color: #ffffff;
+  }
+  background: #666666;
+  border-bottom: solid 10px #F36E21;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}

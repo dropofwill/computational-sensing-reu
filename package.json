@@ -1,0 +1,25 @@
+{
+  "name": "reu",
+  "version": "1.0.0",
+  "description": "Site for RIT's REU on Computational Sensing",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass styles/main.scss main.css --include-path ./node_modules/node-bourbon/node_modules/bourbon/app/assets/stylesheets",
+    "watch": "node-sass -w styles/main.scss main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropofwill/computational-sensing-reu.git"
+  },
+  "author": "Will Paul <whp3652@rit.edu> (http://will-paul.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dropofwill/computational-sensing-reu/issues"
+  },
+  "homepage": "https://github.com/dropofwill/computational-sensing-reu#readme",
+  "dependencies": {
+    "node-bourbon": "^4.2.3",
+    "node-sass": "^3.4.2"
+  }
+}
