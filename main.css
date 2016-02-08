@@ -533,10 +533,11 @@ table {
   border: #ccc 1px solid; }
 
 table th {
+  font-family: "Titillium Web", sans-serif;
   padding: 10px;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
-  background: #666666; }
+  background: #eee; }
 
 table td {
   padding: 18px;
