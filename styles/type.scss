@@ -11,6 +11,14 @@ $base-font-color: $dark-gray !default;
 $sans-serif: 'PT Sans', sans-serif;
 $sans-serif-2: 'Titillium Web', sans-serif;
 
+.emphasis {
+  color: #F36E21 !important;
+  font-family: $sans-serif-2;
+  font-weight: 700;
+  border-bottom: 1px solid #F36E21;
+  font-size: 1.1em;
+}
+
 * {
   font-family: $sans-serif;
 }
