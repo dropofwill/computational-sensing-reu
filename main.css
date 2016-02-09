@@ -549,7 +549,8 @@ section {
   float: left; }
 
 .col-third {
-  width: 40%;
+  max-width: 350px;
+  width: 45%;
   float: left;
   margin-right: 3%; }
 
