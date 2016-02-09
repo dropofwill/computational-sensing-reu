@@ -517,12 +517,35 @@ section {
     content: "";
     display: table; }
 
-.image-right {
-  width: 60%;
+.right-col {
+  float: right;
+  width: 35%;
+  padding-left: 2em; }
+
+.full-width {
+  width: 100%; }
+
+.image-small {
+  width: 30%; }
+
+.row {
+  margin-bottom: 2em; }
+  .row::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.half-col {
+  width: 45%;
+  float: left;
+  margin-right: 5%; }
+
+.col-right {
+  width: 50%;
   float: right; }
 
-.image-left {
-  width: 60%;
+.col-left {
+  width: 50%;
   float: left; }
 
 .profile-pics img {
@@ -556,7 +579,3 @@ table tr:last-child td {
 
 table tr:hover td {
   background: #f2f2f2; }
-
-.tab {
-  widht: 300px;
-  height: 200px; }
