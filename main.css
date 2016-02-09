@@ -548,6 +548,11 @@ section {
   width: 50%;
   float: left; }
 
+.col-third {
+  width: 30%;
+  float: left;
+  margin-right: 3%; }
+
 .profile-pics img {
   width: 150px; }
 
