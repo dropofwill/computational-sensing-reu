@@ -354,6 +354,9 @@ td,
 th {
   padding: 0; }
 
+.highlight-text {
+  color: #d5560c; }
+
 .emphasis {
   color: #F36E21 !important;
   font-family: "Titillium Web", sans-serif;

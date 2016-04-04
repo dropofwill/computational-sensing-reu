@@ -11,6 +11,10 @@ $base-font-color: $dark-gray !default;
 $sans-serif: 'PT Sans', sans-serif;
 $sans-serif-2: 'Titillium Web', sans-serif;
 
+.highlight-text {
+  color: darken(#F36E21, 10%);
+}
+
 .emphasis {
   color: #F36E21 !important;
   font-family: $sans-serif-2;
